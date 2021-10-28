@@ -39,7 +39,8 @@ Now you can use the command 'npm run dev' in your terminal to run the server at:
 For Graphql, go to: "http://localhost:3001/graphql"
 
 Here, you can use the 'get query' for articles table using:
-query {
+
+- query {
   getAllArticles {
     id
     title
@@ -52,7 +53,8 @@ query {
 }
 
 And the categories table using:
-query {
+
+- query {
   getAllCategories {
     id
     category
