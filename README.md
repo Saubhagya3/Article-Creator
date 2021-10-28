@@ -37,6 +37,7 @@ Now you can use the command 'npm run dev' in your terminal to run the server at:
 ### Run the Graphiql interface
 
 For Graphql, go to: "http://localhost:3001/graphql"
+
 Here, you can use the 'get query' for articles table using:
 query {
   getAllArticles {
