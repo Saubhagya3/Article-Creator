@@ -34,6 +34,30 @@ Finally, run 'npm install' once more (from within the back end directory where t
 
 Now you can use the command 'npm run dev' in your terminal to run the server at: "http://localhost:3001/"
 
+### Run the Graphiql interface
+
+For Graphql, go to: "http://localhost:3001/graphql"
+Here, you can use the 'get query' for articles table using:
+query {
+  getAllArticles {
+    id
+    title
+    author
+    country
+    category
+    content
+    date
+  }
+}
+
+And the categories table using:
+query {
+  getAllCategories {
+    id
+    category
+  }
+}
+
 The database tables will be automatically created with the ORM, and the front end will now be connected to the server.
 
 # Thank you!!
