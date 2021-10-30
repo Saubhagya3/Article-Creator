@@ -32,7 +32,9 @@ export default function ViewPost() {
       <Box component="main" sx={{ p: 3, width: "100%" }}>
         {data && (data.getAllArticles
           .slice(0, limit ? limit : data.getAllArticles.length)
-          .reverse()
+          .sort((a: any, b: any) => {
+            return (+new Date(b.date) - +new Date(a.date))
+          })
           .map((article: any) => {
             return(
               <ArticleItem 
