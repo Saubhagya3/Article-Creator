@@ -43,7 +43,9 @@ export default function DrawerComponent() {
                 </ListItem>
                 {data && (data.getAllArticles
                     .slice(0, limit ? limit : data.getAllArticles.length)
-                    .reverse()
+                    .sort((a: any, b: any) => {
+                        return (+new Date(b.date) - +new Date(a.date))
+                    })
                     .map((article: any) => (
                         <Route key={article.id}>
                             <Link to={`/articlepage/${article.id}`} style={{textDecoration: "none", color: "black"}}
