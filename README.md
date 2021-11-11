@@ -24,7 +24,7 @@ Then 'npm start' in your terminal to run this project at: "http://localhost:3000
 
 In order to run the backend, you'll first need to create a new Mysql schema in your Mysql Workbench. 
 
-Then, git clone the backend server repo at: "https://github.com/Saubhagya3/forexco-test-server"
+Then, git clone the backend server repo at: "https://github.com/Saubhagya3/Article-Creator-Server"
 
 After doing so, please change the following in the 'index.js' file located in the src folder:
 - database: "forexco-schema", <-- Change this to your schema name
