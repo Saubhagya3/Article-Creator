@@ -1,4 +1,4 @@
-# Article Web App Challenge
+# Article Web App
 
 Please note that once you've followed the setup, the app is already working in your device. 
 You can add new categories and articles to see them in the main page.
