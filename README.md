@@ -1,6 +1,5 @@
 # Article Web App Challenge
 
-This is the solution for the Forexco full-stack challenge.
 Please note that once you've followed the setup, the app is already working in your device. 
 You can add new categories and articles to see them in the main page.
 
